@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Verified Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .verified-section {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: left; /* Text aligned to the left */
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            align-items: center; /* Align the icon and text vertically */
+            margin-bottom: 20px; /* Space between the image and the header */
+        }
+
+        .blue-tick-wrapper {
+            margin-right: 10px; /* Space between the image and the text */
+        }
+
+        .verified-icon {
+            width: 30px;  /* Reduced size of the icon */
+            height: 30px; /* Reduced size of the icon */
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+            display: inline-block;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .get-badge-btn,
+        .learn-more-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .get-badge-btn {
+            background-color: #0078ff;
+            color: #fff;
+            border: none;
+        }
+
+        .get-badge-btn:hover {
+            background-color: #005bb5;
+        }
+
+        .learn-more-btn {
+            background-color: #f0f2f5;
+            color: #0078ff;
+            border: 1px solid #0078ff;
+        }
+
+        .learn-more-btn:hover {
+            background-color: #dbe5f4;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 500px) {
+            .verified-section {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+
+            .description {
+                font-size: 13px;
+            }
+
+            .get-badge-btn,
+            .learn-more-btn {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="verified-section">
+        <!-- Header with Blue Tick Image on the Left of the Text -->
+        <div class="header">
+            
+            <!-- Blue Tick Image -->
+            <div class="blue-tick-wrapper">
+                <!-- Replace 'blue-tick-image.png' with your actual image -->              
+          
+        
+           
+        </div> 
+        </div>
+        <div>
+        <img src="pppp.jpg" alt="Blue Tick" class="verified-icon">
+        <br>
+        </div>
+        
+        <div>
+           
+            <h1>About Meta Verified Profiles</h1>
+        </div>
+
+        <div class="description">
+            
+            Profiles can be verified by Meta, based on their activity across Meta products or documents they provide. <br>Verified badges are displayed on these profiles. Some verified profiles are owned by a notable person, brand or entity, while others subscribe to Meta Verified.
+            <br> 
+        </div>
+        <br>
+        <button class="get-badge-btn" id="getBadgeBtn">Get a Verified badge</button>
+        <button class="learn-more-btn" id="learnMoreBtn">Learn More</button>
+    </div>
+
+    <script>
+        document.getElementById('getBadgeBtn').addEventListener('click', function() {
+            window.location.href = 'Blue.html'; // Replace with actual link
+        });
+
+        document.getElementById('learnMoreBtn').addEventListener('click', function() {
+            window.location.href = 'https://transparency.meta.com/en-gb/'; // Replace with actual link
+        });
+    </script>
+</body>
+</html>
